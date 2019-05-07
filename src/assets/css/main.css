@@ -193,5 +193,7 @@ div {
 button {
   background-color: transparent;
 }
-
+.auto{
+  margin:auto auto;
+}
 /* reste  e-- */
