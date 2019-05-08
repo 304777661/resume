@@ -193,7 +193,9 @@ div {
 button {
   background-color: transparent;
 }
-
+.auto{
+  margin:auto auto;
+}
 /* reste  e-- */
 /* common-class s--*/
 .class-bg {
