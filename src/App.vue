@@ -16,4 +16,13 @@
 // };
 </script>
 
+<style lang="scss">
+  #app {
+    height: 100%;
+    >div {
+      min-height: 100%;
+    }
+  } 
+</style>
+
 

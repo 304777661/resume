@@ -197,3 +197,21 @@ button {
 
 
 /* reste  e-- */
+
+
+/* common-class s--*/
+
+.class-bg {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+}
+
+.class-flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* common-class e--*/
