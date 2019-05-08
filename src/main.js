@@ -1,7 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
 import './assets/css/main.scss'
-import './assets/css/index.scss'
 import './assets/font/iconfont.css'
 import iView from 'iview';
 import 'iview/dist/styles/iview.css';

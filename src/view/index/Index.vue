@@ -13,7 +13,6 @@
         </li>
         <li>
           <a
-            
             class="animated top-nav-text"
             @mouseover="addShake($event)"
             @mouseleave="removeShake($event)"
@@ -231,6 +230,7 @@
             <ul>
               <li>
                 <i class="iconfont icon-circle"></i> 总综合能源用户总数
+              </li>
               <li>
                 <i class="iconfont icon-circle"></i> 项目总数
               </li>
@@ -672,10 +672,10 @@ export default {
       this.rate = 0;
       this.addRateZero = 0;
     },
-    otherPage(arg){
+    otherPage(arg) {
       // alert(1)
       this.$router.push(arg);
-      return false
+      return false;
     }
   },
   mounted() {
@@ -767,6 +767,7 @@ export default {
 };
 </script>
 <style lang="scss" scoped>
+@import "../../assets/css/index.css";
 #fanPatternCanvas {
   position: absolute;
   top: 100px;
